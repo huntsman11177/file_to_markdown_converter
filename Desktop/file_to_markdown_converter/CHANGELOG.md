@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.1.0
+## 1.1.1
 
 - Initial release with:
   - PDF, CSV, XLS(X) and IMG via OCR to Markdown conversion
