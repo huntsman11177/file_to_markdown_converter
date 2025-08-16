@@ -1,0 +1,26 @@
+name: file_to_markdown_converter
+description: A Flutter/Dart library to convert CSV, Excel, PDF, and images (via OCR) into Markdown.
+version: 1.1.0
+homepage: https://github.com/hunstman11177/file_to_markdown_converter
+repository: https://github.com/hunstman11177/file_to_markdown_converter
+issue_tracker: https://github.com/hunstman11177/file_to_markdown_converter/issues
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  csv: ^6.0.0
+  excel: ^4.0.3
+  syncfusion_flutter_pdf: ^24.2.9
+  path: ^1.8.3
+  meta: ^1.9.1
+  google_mlkit_text_recognition: ^0.10.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  camera: ^0.10.5+9
+  
