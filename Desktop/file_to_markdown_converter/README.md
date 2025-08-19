@@ -18,7 +18,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  file_to_markdown_converter: ^1.1.1
+  file_to_markdown_converter: ^1.1.3
 ```
 
 Then run:

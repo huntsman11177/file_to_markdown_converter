@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.1.2] - 2024-12-19
+## [1.1.3] 
 
 ### Added
 - **Password Protection Support**: Added comprehensive password protection functionality for files
