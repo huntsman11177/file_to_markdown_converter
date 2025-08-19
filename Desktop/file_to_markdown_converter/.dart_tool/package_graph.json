@@ -7,12 +7,15 @@
       "name": "file_to_markdown_converter",
       "version": "1.1.1",
       "dependencies": [
+        "archive",
+        "crypto",
         "csv",
-        "excel",
+        "encrypt",
         "flutter",
         "google_mlkit_text_recognition",
         "meta",
         "path",
+        "spreadsheet_decoder",
         "syncfusion_flutter_pdf"
       ],
       "devDependencies": [
@@ -69,6 +72,33 @@
       ]
     },
     {
+      "name": "archive",
+      "version": "3.6.1",
+      "dependencies": [
+        "crypto",
+        "path"
+      ]
+    },
+    {
+      "name": "encrypt",
+      "version": "5.0.3",
+      "dependencies": [
+        "args",
+        "asn1lib",
+        "clock",
+        "collection",
+        "crypto",
+        "pointycastle"
+      ]
+    },
+    {
+      "name": "crypto",
+      "version": "3.0.6",
+      "dependencies": [
+        "typed_data"
+      ]
+    },
+    {
       "name": "google_mlkit_text_recognition",
       "version": "0.15.0",
       "dependencies": [
@@ -100,12 +130,10 @@
       ]
     },
     {
-      "name": "excel",
-      "version": "4.0.6",
+      "name": "spreadsheet_decoder",
+      "version": "2.3.0",
       "dependencies": [
         "archive",
-        "collection",
-        "equatable",
         "xml"
       ]
     },
@@ -328,6 +356,32 @@
       ]
     },
     {
+      "name": "pointycastle",
+      "version": "3.9.1",
+      "dependencies": [
+        "collection",
+        "convert",
+        "js"
+      ]
+    },
+    {
+      "name": "asn1lib",
+      "version": "1.6.5",
+      "dependencies": []
+    },
+    {
+      "name": "args",
+      "version": "2.7.0",
+      "dependencies": []
+    },
+    {
+      "name": "typed_data",
+      "version": "1.4.0",
+      "dependencies": [
+        "collection"
+      ]
+    },
+    {
       "name": "google_mlkit_commons",
       "version": "0.11.0",
       "dependencies": [
@@ -360,13 +414,6 @@
       ]
     },
     {
-      "name": "crypto",
-      "version": "3.0.6",
-      "dependencies": [
-        "typed_data"
-      ]
-    },
-    {
       "name": "xml",
       "version": "6.5.0",
       "dependencies": [
@@ -381,22 +428,6 @@
       "dependencies": [
         "clock",
         "meta",
-        "path"
-      ]
-    },
-    {
-      "name": "equatable",
-      "version": "2.0.7",
-      "dependencies": [
-        "collection",
-        "meta"
-      ]
-    },
-    {
-      "name": "archive",
-      "version": "3.6.1",
-      "dependencies": [
-        "crypto",
         "path"
       ]
     },
@@ -443,6 +474,11 @@
       ]
     },
     {
+      "name": "js",
+      "version": "0.7.2",
+      "dependencies": []
+    },
+    {
       "name": "http_parser",
       "version": "4.1.2",
       "dependencies": [
@@ -450,13 +486,6 @@
         "source_span",
         "string_scanner",
         "typed_data"
-      ]
-    },
-    {
-      "name": "typed_data",
-      "version": "1.4.0",
-      "dependencies": [
-        "collection"
       ]
     },
     {
