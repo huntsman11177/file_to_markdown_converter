@@ -18,7 +18,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  file_to_markdown_converter: ^1.1.3
+  file_to_markdown_converter: ^1.1.4
 ```
 
 Then run:
@@ -784,7 +784,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/file_to_markdown_converter.git
+git clone https://github.com/huntsman11177/file_to_markdown_converter.git
 
 # Install dependencies
 cd file_to_markdown_converter
